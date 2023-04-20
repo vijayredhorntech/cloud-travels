@@ -78,17 +78,17 @@
 
 
 
-        <div class="flex mt-6 lg:flex-row md:flex-col md:justify-start sm:flex-col hidden lg:justify-between">
+        <div class="flex mt-6 2xl:flex-row  flex-wrap justify-between">
 
 
-            <div class="mt-3">
+            <div class="mt-3 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
                 <label for="adult" class="text-black">Adult (>15)</label><br>
-                <input name="adult" type="number" placeholder="1" class="input rounded bg-transparent border-gray-400 w-64 text-black">
+                <input name="adult" type="number" placeholder="1" class="input rounded bg-transparent border-gray-400 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full  text-black">
             </div>
 
-            <div class="mt-3">
+            <div class="mt-3 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
                 <label for="youth" class="text-black">Youth (12-15)</label><br>
-                <select name="youth" class="input rounded bg-transparent border-gray-400 w-64 text-black" >
+                <select name="youth" class="input rounded bg-transparent border-gray-400 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full  text-black" >
                     <option value="">Youth</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -98,9 +98,9 @@
                 </select>
             </div>
 
-            <div class="mt-3">
+            <div class="mt-3 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
                 <label for="children" class="text-black">Children (2-11)</label><br>
-                <select name="children" class="input rounded bg-transparent border-gray-400 w-64 text-black" >
+                <select name="children" class="input rounded bg-transparent border-gray-400 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full  text-black" >
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -114,9 +114,9 @@
                 </select>
             </div>
 
-            <div class="mt-3">
+            <div class="mt-3 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
                 <label for="infant" class="text-black">Infant (2)</label><br>
-                <select name="infant" class="input rounded bg-transparent border-gray-400 w-64 text-black" >
+                <select name="infant" class="input rounded bg-transparent border-gray-400 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full  text-black" >
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -124,9 +124,9 @@
                 </select>
             </div>
 
-            <div class="mt-3">
+            <div class="mt-3 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
                 <label for="travelClass" class="text-black">Travel Class</label><br>
-                <select name="travelClass" class="input rounded bg-transparent border-gray-400 w-64 text-black" >
+                <select name="travelClass" class="input rounded bg-transparent border-gray-400 2xl:w-64 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full  text-black" >
                     <option value="Economy">Economy</option>
                     <option value="Business">Business</option>
                     <option value="First Class">First Class</option>
@@ -135,17 +135,9 @@
                 </select>
             </div>
 
-            <div class="mt-3">
+            <div class="mt-3 2xl:w-52 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
               <button class="btn mt-6 bg-info border-transparent text-white pl-12 pr-12 hover:bg-transparent hover:border-info hover:text-info ">Search Flight</button>
             </div>
-
-
-
-
-
-
-
-
         </div>
     </div>
 
