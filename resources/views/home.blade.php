@@ -41,11 +41,10 @@
        <button class="btn text-white bg-transparent border-transparent pl-12 pr-12 text-lg hover:bg-white hover:text-info hover:border-transparent mt-1 mb-1 rounded-full">VISA</button>
    </div>
 
-
 {{--    flight type--}}
     <div class="w-4/5 m-auto h-auto flex flex-col justify-center ">
 
-      <div class="mt-3 flex lg:flex-row md:flex-row sm:flex-row">
+        <div class="mt-3 flex lg:flex-row md:flex-row sm:flex-row">
           <button class="btn btn-sm text-xs bg-transparent border-info hover:bg-yellow-500 hover:text-white hover:border-transparent text-info mr-2">One Way</button>
           <button class="btn btn-sm text-xs bg-transparent border-info hover:bg-yellow-500 hover:text-white hover:border-transparent text-info mr-2">Rounded Trip</button>
           <button class="btn btn-sm text-xs bg-transparent border-info hover:bg-yellow-500 hover:text-white hover:border-transparent text-info">Multi City</button>
@@ -74,9 +73,6 @@
                 </div>
             </div>
         </div>
-
-
-
 
         <div class="flex mt-6 2xl:flex-row  flex-wrap justify-between">
 
@@ -136,7 +132,7 @@
             </div>
 
             <div class="mt-3 2xl:w-52 xl:w-80 lg:w-64 md:w-52 sm:w-full w-full">
-              <button class="btn mt-6 bg-info border-transparent text-white pl-12 pr-12 hover:bg-transparent hover:border-info hover:text-info ">Search Flight</button>
+              <a href="{{route('flightSearch')}}" class="btn mt-6 bg-info border-transparent text-white pl-12 pr-12 hover:bg-transparent hover:border-info hover:text-info ">Search Flight</a>
             </div>
         </div>
     </div>
