@@ -78,7 +78,7 @@
                 <li class=" text-white bg-info font-semibold w-96"><a>VISA</a></li>
             </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl"><img src="https://cloud-travel.co.uk/live_flight/frontend/assets/images/logo.png" class="h-12 object-cover" alt=""></a>
+        <a class="btn btn-ghost normal-case text-xl" href="/"><img src="https://cloud-travel.co.uk/live_flight/frontend/assets/images/logo.png" class="h-12 object-cover" alt=""></a>
     </div>
 
 
