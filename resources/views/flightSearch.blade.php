@@ -55,13 +55,13 @@
 
         </div>
 
-        <section class="flex w-full 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col  justify-between">
+        <section class="flex w-full 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col  relative justify-between ">
 
 
             {{--        section left div starts here--}}
-            <div class="2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-full sm:w-full w-full 2xl:pl-48 xl:pl-40 lg:pl-24 md:pl-5 sm:pl-5 pl-5 pt-12 pr-5">
-                <span class="font-semibold text-lg text-black">Filter Result</span>
-                <div class="mt-5 pb-5 border-b-2 border-b-gray-300">
+            <div class="2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-full sm:w-full w-full 2xl:pl-48 xl:pl-40 lg:pl-24 md:pl-5 sm:pl-5 pl-5 pt-12 pr-5  ">
+                <span class="font-semibold text-lg text-black sticky top-5  ">Filter Result</span>
+                <div class="mt-5 pb-5 border-b-2 border-b-gray-300 sticky top-10 ">
 
                     <span class="font-semibold text-md text-black">Stops </span>
 
@@ -80,7 +80,7 @@
 
                 </div>
 
-                <div class="mt-5 pb-5 border-b-2 border-b-gray-300">
+                <div class="mt-5 pb-5 border-b-2 border-b-gray-300 sticky top-15 ">
 
                     <span class="font-semibold text-md text-black">Departure  </span>
                     <div class="flex items-center mt-3 ">

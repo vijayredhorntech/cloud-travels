@@ -18,6 +18,7 @@ Route::middleware(['splade'])->group(function () {
     Route::get('/flightSearch', fn () => view('flightSearch'))->name('flightSearch');
     Route::get('/flightDetails', fn () => view('flightDetails'))->name('flightDetails');
     Route::get('/passengerDetails', fn () => view('passengerDetails'))->name('passengerDetails');
+    Route::get('/payment', fn () => view('payment'))->name('payment');
 
     // Registers routes to support the interactive components...
     Route::spladeWithVueBridge();

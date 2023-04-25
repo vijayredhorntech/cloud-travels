@@ -138,6 +138,165 @@
 
                 </div>
 
+                <div>
+                    <div class="bg-gray-100 border-b-2 border-b-gray-300 px-4 py-3 rounded-md mt-12">
+                        <span class="text-black "><i class="fa-solid fa-user mr-2"></i></span>
+                        <span class="text-black ">Children 1 </span>
+                    </div>
+
+                    <div class="border-2 border-gray-100 px-5 pb-10">
+
+                        <div class="flex flex-col mt-5">
+                            <label for="name" class=" font-semibold text-gray-800 text-sm">NAME</label>
+                            <div class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-col w-full justify-between mt-2">
+
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full">
+                                    <select class="w-full rounded-md text-sm text-black">
+                                        <option>Title </option>
+                                        <option>Mr</option>
+                                        <option>Mrs</option>
+                                        <option>Ms</option>
+                                    </select>
+                                </div>
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-3">
+                                    <input type="text" class="w-full rounded-md text-sm text-black" placeholder="First Name/ Given Name"  />
+                                </div>
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-3">
+                                    <input type="text" class="w-full rounded-md text-sm text-black" placeholder="Middel Name"  />
+                                </div>
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-3">
+                                    <input type="text" class="w-full rounded-md text-sm text-black" placeholder="Last Name"  />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="gender" class=" font-semibold text-gray-800 text-sm"> Gender</label>
+                            <select id="gender" name="gender"    class="w-full rounded-md text-sm text-black mt-2" >
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="dob" class=" font-semibold text-gray-800 text-sm">Date of Birth</label>
+                            <input type="date"  class="w-full rounded-md text-sm text-black mt-2">
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="seating" class=" font-semibold text-gray-800 text-sm"> Seating</label>
+                            <select  name="seating"   class="w-full rounded-md text-sm text-black mt-2"  required="">
+                                <option value="No preference">No preference</option>
+                                <option value="Aisle seat">Aisle seat</option>
+                                <option value="Bulkhead seat">Bulkhead seat</option>
+                                <option value="Cradle/Baby Basket seat">Cradle/Baby Basket seat</option>
+                                <option value="Exit seat">Exit seat</option>
+                                <option value="Non smoking window seat">Non smoking window seat</option>
+                                <option value="Suitable for disable seat">Suitable for disable seat</option>
+                                <option value="Suitable for disable seat">Suitable for disable seat</option>
+                                <option value="Legspace">Legspace</option>
+                                <option value="Non smoking seat">Non smoking seat</option>
+                                <option value="Overwing seat">Overwing seat</option>
+                                <option value="Smoking seat">Smoking seat</option>
+                                <option value="Window seat">Window seat</option>
+                            </select>
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="assistance" class=" font-semibold text-gray-800 text-sm">ASSISTANCE</label>
+                            <select name="assistance"  class="w-full rounded-md text-sm text-black mt-2"  required="">
+                                <option selected="selected" value="No preference">No preference</option>
+                                <option value="Overwing seat">Deaf</option>
+                                <option value="Smoking seat">Blind</option>
+                                <option value="Window seat">Wheelchair</option>
+                            </select>
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="meal" class=" font-semibold text-gray-800 text-sm">MEAL</label>
+                            <select name="meal"  class="w-full rounded-md text-sm text-black mt-2"  >
+                                <option value="No preference">No preference</option>
+                                <option value="BBML">Baby Meal</option>
+                                <option value="BLML">Bland Meal</option>
+                                <option value="CHML">Child Meal Meal</option>
+                                <option value="DBML">Diabetic Meal</option>
+                                <option value="FPML">Fruit Platter Meal</option>
+                                <option value="GFML">Gluten Intolerant Meal</option>
+                                <option value="HNML">Hindu Meal</option>
+                                <option value="KSML">Kosher Meal</option>
+                                <option value="LCML">Low Calorie Meal</option>
+                                <option value="LFML">Low Fat Meal</option>
+                                <option value="NLML">Low Lactose Meal</option>
+                                <option value="LSML">Low Salt Meal</option>
+                                <option value="MOML">Muslim Meal</option>
+                                <option value="RVML">Raw Vegetarian Meal</option>
+                                <option value="SFML">Seafood Meal</option>
+                                <option value="SPML">Special Meal</option>
+                                <option value="AVML">Vegetarian Hindu Meal</option>
+                                <option value="VJML">Vegetarian Jain Meal</option>
+                                <option value="VLML">Vegetarian Lacto-Ovo</option>
+                                <option value="VGML">Vegetarian Meal</option>
+                                <option value="VOML">Vegetarian Oriental Meal</option>
+                            </select>
+                        </div>
+
+                        {{--                    for label         class=" font-semibold text-gray-800 text-sm"    --}}
+                        {{--                    for input         class="w-full rounded-md text-sm text-black"               --}}
+
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="bg-gray-100 border-b-2 border-b-gray-300 px-4 py-3 rounded-md mt-12">
+                        <span class="text-black "><i class="fa-solid fa-user mr-2"></i></span>
+                        <span class="text-black ">Infant 1 </span>
+                    </div>
+
+                    <div class="border-2 border-gray-100 px-5 pb-10">
+
+                        <div class="flex flex-col mt-5">
+                            <label for="name" class=" font-semibold text-gray-800 text-sm">NAME</label>
+                            <div class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-col w-full justify-between mt-2">
+
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full">
+                                    <select class="w-full rounded-md text-sm text-black">
+                                        <option>Title </option>
+                                        <option>Mr</option>
+                                        <option>Mrs</option>
+                                        <option>Ms</option>
+                                    </select>
+                                </div>
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-3">
+                                    <input type="text" class="w-full rounded-md text-sm text-black" placeholder="First Name/ Given Name"  />
+                                </div>
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-3">
+                                    <input type="text" class="w-full rounded-md text-sm text-black" placeholder="Middel Name"  />
+                                </div>
+                                <div class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-3">
+                                    <input type="text" class="w-full rounded-md text-sm text-black" placeholder="Last Name"  />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="gender" class=" font-semibold text-gray-800 text-sm"> Gender</label>
+                            <select id="gender" name="gender"    class="w-full rounded-md text-sm text-black mt-2" >
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="flex flex-col mt-5">
+                            <label for="dob" class=" font-semibold text-gray-800 text-sm">Date of Birth</label>
+                            <input type="date"  class="w-full rounded-md text-sm text-black mt-2">
+                        </div>
+
+                    </div>
+
+                </div>
+
                 <div class="border-2 border-gray-100 px-5 py-10 mt-5">
 
                     <span class=" font-semibold text-gray-800 text-md mt-5">Passenger Address</span>
@@ -449,9 +608,14 @@
                </div>
 
                 <div class=" flex w-full px-5  mt-5">
-                    <a href="#" class="bg-info text-gray-100 text-lg py-2 px-5 rounded-md">Proceed to Payment </a>
+                    <a href="{{route('payment')}}" class="bg-info text-gray-100 text-lg py-2 px-5 rounded-md">Proceed to Payment </a>
                 </div>
+
             </div>
+
+
+
+
         </div>
 
         {{--    section left div ends here--}}
@@ -459,12 +623,12 @@
 
         {{--    section right div starts here--}}
         <div
-            class="2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-full sm:w-full w-full  bg-white drop-shadow-2xl rounded-xl 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-2 sm:mt-2 mt-2 2xl:ml-5 xl:ml-5 lg:ml-5 md:ml-0 sm:ml-0 ml-0 h-80 p-5">
+            class="2xl:w-1/4 sticky top-0 xl:w-1/4 lg:w-1/4 md:w-full sm:w-full w-full  bg-white drop-shadow-2xl rounded-xl 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-2 sm:mt-2 mt-2 2xl:ml-5 xl:ml-5 lg:ml-5 md:ml-0 sm:ml-0 ml-0 h-min p-5">
+
             <div class="flex flex-col pb-5 border-b-2 border-b-gray-200">
                 <span class="text-black font-semibold text-xl ">FARE SUMMARY</span>
                 <span class="mt-2 text-sm ">Travelers 1 Adult</span>
             </div>
-
             <div class="flex justify-between mt-3">
                 <span class="text-black text-md">Base Fare x 1</span>
                 <span class="text-black text-md font-semibold">&#8377 235.58</span>
@@ -477,9 +641,41 @@
                 <span class="text-black text-md">Price 1 adult(s)</span>
                 <span class="text-black text-md font-semibold">&#8377 235.58</span>
             </div>
+
+            <div class="flex flex-col pb-5 border-b-2 border-b-gray-200">
+                <span class="mt-2 text-sm ">Travelers 1 Child</span>
+            </div>
+            <div class="flex justify-between mt-3">
+                <span class="text-black text-md">Base Fare x 1</span>
+                <span class="text-black text-md font-semibold">&#8377 135.58</span>
+            </div>
+            <div class="flex justify-between mt-1.5">
+                <span class="text-black text-md">Fee & Surcharge x 1</span>
+                <span class="text-black text-md font-semibold">&#8377 105.58</span>
+            </div>
+            <div class="flex justify-between mt-1.5 pb-3 border-b-2 border-b-gray-200 ">
+                <span class="text-black text-md">Price 1 child(s)</span>
+                <span class="text-black text-md font-semibold">&#8377 95.58</span>
+            </div>
+
+            <div class="flex flex-col pb-5 border-b-2 border-b-gray-200">
+                <span class="mt-2 text-sm ">Travelers 1 Infant</span>
+            </div>
+            <div class="flex justify-between mt-3">
+                <span class="text-black text-md">Base Fare x 1</span>
+                <span class="text-black text-md font-semibold">&#8377 95.58</span>
+            </div>
+            <div class="flex justify-between mt-1.5">
+                <span class="text-black text-md">Fee & Surcharge x 1</span>
+                <span class="text-black text-md font-semibold">&#8377 75.58</span>
+            </div>
+            <div class="flex justify-between mt-1.5 pb-3 border-b-2 border-b-gray-200 ">
+                <span class="text-black text-md">Price 1 infant(s)</span>
+                <span class="text-black text-md font-semibold">&#8377 95.58</span>
+            </div>
             <div class="flex justify-between mt-3">
                 <span class="text-black text-md font-bold">Total</span>
-                <span class="text-black text-md text-red-700 font-semibold">&#8377 235.58</span>
+                <span class="text-black text-md text-red-700 font-semibold">&#8377 1505.58</span>
             </div>
 
 
