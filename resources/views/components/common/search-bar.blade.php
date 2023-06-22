@@ -36,16 +36,68 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full">
+
+
+                <div class="w-full relative">
                     <label for="guests" class="block mb-2 text-xs font-normal text-gray-100">Guests</label>
-                    <select id="guests" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-full py-1.5 px-3">
-                        <option selected>1 Adult</option>
-                        <option value="US">United States</option>
-                        <option value="CA">Canada</option>
-                        <option value="FR">France</option>
-                        <option value="DE">Germany</option>
-                    </select>
+                    <button onclick="openGuestModal()" type="button" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-full py-1.5 flex justify-start px-3">
+                       1 Adult,
+                    </button>
+                    <div id="guestModal" class="w-72 h-max bg-gray-100 rounded-md absolute left-0 z-50  shadow-md shadow-gray-300 hidden">
+                             <div class="w-full flex justify-between p-6 border-b-2 border-b-gray-300">
+                                 <span class="text-black font-semibold text-md">Rooms</span>
+                                 <select id="countries" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-32 py-1.5 px-3">
+                                     <option selected>01-04</option>
+                                     <option value="US"></option>
+                                     <option value="CA">Canada</option>
+                                     <option value="FR">France</option>
+                                     <option value="DE">Germany</option>
+                                 </select>
+                             </div>
+                                <div class="w-full py-2 px-6 ">
+                                    <span class="text-black font-semibold text-md">Rooms 1</span>
+
+                                </div>
+                             <div class="w-full flex justify-between py-2 px-6 border-b-2  border-b-gray-300">
+                                 <span class="text-gray-600 font-semibold text-md">Adults</span>
+                                 <select id="countries" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-32 py-1.5 px-3">
+                                     <option selected>01-04</option>
+                                     <option value="US"></option>
+                                     <option value="CA">Canada</option>
+                                     <option value="FR">France</option>
+                                     <option value="DE">Germany</option>
+                                 </select>
+                             </div>
+                             <div class="w-full flex justify-between py-2 px-6 border-b-2 border-b-gray-300">
+                                 <span class="text-gray-600 font-semibold text-md">Adults</span>
+                                 <select id="countries" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-32 py-1.5 px-3">
+                                     <option selected>01-04</option>
+                                     <option value="US">02/04</option>
+                                     <option value="CA">Canada</option>
+                                     <option value="FR">France</option>
+                                     <option value="DE">Germany</option>
+                                 </select>
+                             </div>
+                             <div class="w-full flex gap-3 py-2 px-6 border-b-2 border-b-gray-300">
+                               <div class="w-1/4">
+                                   <input id="countries" type="number" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-full py-1.5 px-2" placeholder="Age">
+                               </div>
+                               <div class="w-1/4">
+                                   <input id="countries" type="number" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-full py-1.5 px-2" placeholder="Age">
+                               </div>
+                             </div>
+                             <div class="w-full flex justify-center gap-3 py-2 px-2 border-b-2 border-b-gray-300">
+                                 <button  onclick="closeGuestModal()" type="button" class="rounded-md bg-sky-500 text-white w-full flex justify-center py-1.5 font-semibold text-lg">Done</button>
+                             </div>
+
+
+
+
+                    </div>
+
                 </div>
+
+
                 <div class="w-full">
                     <label for="yourCountry" class="block mb-2 text-xs font-normal text-gray-100">Your Country</label>
                     <select id="yourCountry" class="bg-white border border-gray-200 text-black text-sm rounded-md focus:ring-0 focus:border-none block w-full py-1.5 px-3">

@@ -40,44 +40,44 @@
 
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
             <div class="carousel-item  2xl:h-1/2 xl:h-1/2 lg:h-1/2 md:h-1/2 sm:h-1/4 h-1/4 2xl:w-1/3 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full   relative">
                 <img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/cuba.jpg" class="rounded-box w-full h-96 z-10 object-cover " />
-                <span class=" text-2xl font-bold absolute top-24 z-50 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
-                <span class="text-white absolute bottom-6 w-full z-50 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
+                <span class=" text-2xl font-bold absolute top-24 z-20 left-0 bg-teal-900 p-3 w-full text-white">CUBA</span>
+                <span class="text-white absolute bottom-6 w-full z-20 left-0">Special offers from <span class="text-yellow-500">&#8377 620</span></span>
 
             </div>
 

@@ -38,6 +38,16 @@
             function closeMapModal() {
                 document.getElementById("mapModal").classList.add("hidden");
             }
+
+
+            function openGuestModal() {
+                document.getElementById("guestModal").classList.remove("hidden");
+
+            }
+
+            function closeGuestModal() {
+                document.getElementById("guestModal").classList.add("hidden");
+            }
         </script>
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <script src="../path/to/flowbite/dist/datepicker.js"></script>
