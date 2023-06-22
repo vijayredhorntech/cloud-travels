@@ -20,6 +20,20 @@ Route::middleware(['splade'])->group(function () {
     Route::get('/passengerDetails', fn () => view('passengerDetails'))->name('passengerDetails');
     Route::get('/payment', fn () => view('payment'))->name('payment');
 
+
+
+
+
+
+
+    Route::get('/bookingHome', fn () => view('booking.home'))->name('bookingHome');
+    Route::get('/holidayList', fn () => view('booking.holidayList'))->name('holidayList');
+    Route::get('/property', fn () => view('booking.property'))->name('property');
+    Route::get('/bookingStage1', fn () => view('booking.bookingStage1'))->name('bookingStage1');
+    Route::get('/bookingStage2', fn () => view('booking.bookingStage2'))->name('bookingStage2');
+    Route::get('/bookingStage3', fn () => view('booking.bookingStage3'))->name('bookingStage3');
+    Route::get('/bookingStage4', fn () => view('booking.bookingStage4'))->name('bookingStage4');
+
     // Registers routes to support the interactive components...
     Route::spladeWithVueBridge();
 

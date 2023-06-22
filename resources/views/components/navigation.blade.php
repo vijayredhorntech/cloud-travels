@@ -86,7 +86,7 @@
         <ul class="menu menu-horizontal px-5 flex justify-between align-middle">
             <li class="text-black font-semibold"><a>FLIGHTS</a></li>
             <li class=" text-black font-semibold"><a>HOTELS</a></li>
-            <li class=" text-black font-semibold"><a>FLIGHTS & HOTELS</a></li>
+            <li class=" text-black font-semibold"><a href="{{route('bookingHome')}}">FLIGHTS & HOTELS</a></li>
             <li class=" text-black font-semibold"><a>OFFERS</a></li>
             <li class=" text-black font-semibold"><a>VISA</a></li>
         </ul>
