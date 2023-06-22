@@ -33,6 +33,7 @@ Route::middleware(['splade'])->group(function () {
     Route::get('/bookingStage2', fn () => view('booking.bookingStage2'))->name('bookingStage2');
     Route::get('/bookingStage3', fn () => view('booking.bookingStage3'))->name('bookingStage3');
     Route::get('/bookingStage4', fn () => view('booking.bookingStage4'))->name('bookingStage4');
+    Route::get('/bookingStage5', fn () => view('booking.bookingStage5'))->name('bookingStage5');
 
     // Registers routes to support the interactive components...
     Route::spladeWithVueBridge();

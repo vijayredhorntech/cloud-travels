@@ -1,4 +1,4 @@
-<div class="mt-96 text-center">
+<div class="mt-12 text-center">
     <h1 class="text-black font-semibold text-2xl">Don't miss out! Join our newsletter</h1>
     <span >Be the first to know about our exclusive promotions & discounts!</span>
     <div class="mt-8">

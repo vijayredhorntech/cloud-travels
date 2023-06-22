@@ -138,7 +138,7 @@
 
                 <div class="w-full mt-12">
                     <div class="w-1/2">
-                       <button class="rounded-md bg-sky-500 text-white py-2 w-full font-semibold text-lg">Continue</button>
+                       <a href="{{route('bookingStage4')}}" class="rounded-md bg-sky-500 text-white py-2 px-12 font-semibold text-lg">Continue</a>
                     </div>
 
                 </div>
