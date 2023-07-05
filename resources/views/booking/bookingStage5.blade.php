@@ -9,7 +9,7 @@
     <div class="lg:w-3/4 md:w-3/4 sm:w-full w-full h-max m-auto bg-white ">
         <div class="w-full flex lg:flex-row md:flex-row sm:flex-row flex-col mt-10">
             <div class="lg:w-3/4  md:w-3/4 sm:w-3/4  w-full h-max bg-sky-100 py-4 px-12">
-                <div class="w-full flex gap-8">
+                <div class="w-full flex gap-4">
                     <div class="p-4 flex flex-col">
                         <div class="w-8 h-8 rounded-full bg-white border-2 border-sky-500 text-black flex justify-center m-auto ">
                             <span class="m-auto">1</span>
@@ -75,8 +75,8 @@
                 </div>
 
                 <div class="w-full mt-12">
-                    <div class="w-1/2">
-                        <a href="{{route('bookingStage5')}}" class="rounded-md bg-sky-500 text-white py-2 px-20 font-semibold text-lg"> <i class="fa-solid fa-lock mr-2"></i>Pay ₹349.15</a>
+                    <div class="w-full">
+                        <a href="{{route('bookingStage5')}}" class="rounded-md bg-sky-500 text-white py-2 px-16 font-semibold text-lg"> <i class="fa-solid fa-lock mr-2"></i>Pay ₹349.15</a>
                     </div>
 
                 </div>

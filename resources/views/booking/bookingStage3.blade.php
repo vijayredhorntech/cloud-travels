@@ -9,7 +9,7 @@
     <div class="lg:w-3/4 md:w-3/4 sm:w-full w-full h-max m-auto bg-sky-100 ">
         <div class="w-full flex lg:flex-row md:flex-row sm:flex-row flex-col mt-10">
             <div class="lg:w-3/4  md:w-3/4 sm:w-3/4  w-full h-max bg-white py-4 px-12">
-                 <div class="w-full flex gap-8">
+                 <div class="w-full flex gap-4">
                      <div class="p-4 flex flex-col">
                          <div class="w-8 h-8 rounded-full bg-sky-500 border-none text-white flex justify-center m-auto ">
                                 <span class="m-auto">1</span>
