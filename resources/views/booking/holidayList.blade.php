@@ -20,7 +20,7 @@
 
         <div class="w-full h-max flex justify-between lg:flex-row md:flex-row sm:flex-col flex-col relative ">
 
-             <x-common.hotel-types></x-common.hotel-types>
+            <x-common.hotel-types></x-common.hotel-types>
             <div class=" h-max lg:w-1/4 md:w-1/4 sm:w-full w-full flex justify-end px-12  ">
                 <div class="m-auto">
                     <span class="text-sky-900 text-lg font-semibold mr-2 m-auto "><i class="fa-solid fa-map" style="color: deepskyblue"></i></span>
@@ -29,6 +29,7 @@
             </div>
 
             <x-models.filter-modal></x-models.filter-modal>
+
             <x-models.refund-modal></x-models.refund-modal>
 
         </div>
@@ -75,7 +76,7 @@
 
 
 
-     {{--newslatter--}}
-  <x-common.news-letter></x-common.news-letter>
+    {{--newslatter--}}
+    <x-common.news-letter></x-common.news-letter>
 
 </x-layout>

@@ -50,7 +50,7 @@
 
                     </div>
                     <div class="w-1/5 h-12 ">
-                      <img class="w-full h-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWYsllCSzvfl1ojLGy9_a-sUKCJHohLJJBQ&usqp=CAU" alt="">
+                        <img class="w-full h-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWYsllCSzvfl1ojLGy9_a-sUKCJHohLJJBQ&usqp=CAU" alt="">
                     </div>
                 </div>
 

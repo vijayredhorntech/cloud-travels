@@ -14,7 +14,8 @@
                 <button class=" w-full text-black text-lg font-semibold ">Budget</button>
             </div>
             <div>
-                <button class=" w-full text-black text-lg font-semibold" onclick="openFilterModal()">More Filters</button>
+                <button class=" w-full text-black text-lg font-semibold" onclick="openFilterModal()
+           ">More Filters</button>
             </div>
         </div>
         <div class=" h-max lg:w-2/5 md:w-2/5 sm:w-full w-full flex justify-end px-12 ">
@@ -23,15 +24,16 @@
                 <button class="text-black text-lg font-semibold " onclick="openRecomendModal()">Refundable Only</button>
 
             </div>
-            <div >
-                <button class="text-sky-900 text-lg font-semibold "><i class="fa-solid fa-filter" style="color: deepskyblue"></i></button>
-                <button class="text-black text-lg font-semibold mr-2 "> Sort By</button>
+{{--            <div >--}}
+{{--                <button class="text-sky-900 text-lg font-semibold "><i class="fa-solid fa-filter" style="color: deepskyblue"></i></button>--}}
+{{--                <button class="text-black text-lg font-semibold mr-2 "> Sort By</button>--}}
 
-                <span  class="text-sky-900 text-lg font-semibold "><i class="fa-sharp fa-solid fa-caret-down" style="color: deepskyblue"></i></span>
-            </div>
+{{--                <span  class="text-sky-900 text-lg font-semibold "><i class="fa-sharp fa-solid fa-caret-down" style="color: deepskyblue"></i></span>--}}
+{{--            </div>--}}
         </div>
     </div>
 
 </div>
 <!-- JavaScript code -->
+
 

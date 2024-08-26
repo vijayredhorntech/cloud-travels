@@ -32,9 +32,9 @@
                 </div>
 
 
-{{--                <div class="w-11/12 bg-green-200 py-1 px-4 mt-2 rounded-sm">--}}
-{{--                    <span class=" font-semibold text-black text-xs">We can only discuss the booking with the lead or authorised passengers.</span>--}}
-{{--                </div>--}}
+                {{--                <div class="w-11/12 bg-green-200 py-1 px-4 mt-2 rounded-sm">--}}
+                {{--                    <span class=" font-semibold text-black text-xs">We can only discuss the booking with the lead or authorised passengers.</span>--}}
+                {{--                </div>--}}
 
                 <div class="w-full py-4 border-b-2 border-gray-200">
                     <div class="w-full flex gap-8">
@@ -72,9 +72,9 @@
                 <div class="w-full py-4">
                     <div class="w-full flex gap-8">
                         <div class="w-full mt-4  ">
-                         <div class="w-full">
-                             <span class="text-black text-sm font-semibold">Postal Code</span>
-                         </div>
+                            <div class="w-full">
+                                <span class="text-black text-sm font-semibold">Postal Code</span>
+                            </div>
                             <div class="flex w-full gap-3 ">
                                 <input type="text" id="postalCode" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-0 focus:border-gray-300 block w-1/2 py-2 px-3" placeholder="124589" required>
                                 <button class="rounded-md text-sm bg-sky-500 text-white py-2 w-1/3 font-semibold">Find Address</button>

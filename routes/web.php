@@ -22,6 +22,8 @@ Route::middleware(['splade'])->group(function () {
             Route::get('/flightDetails', fn () => view('flightDetails'))->name('flightDetails');
             Route::get('/passengerDetails', fn () => view('passengerDetails'))->name('passengerDetails');
             Route::get('/payment', fn () => view('payment'))->name('payment');
+
+            Route::get('/flexiFlight', fn () => view('flexiFlight'))->name('flexiFlight');
     //    old admin screen apart from bookings
 
     //    New admin screen for bookings
@@ -37,8 +39,21 @@ Route::middleware(['splade'])->group(function () {
 
     //    New admin screen for bookings
 
+    Route::get('/download',function (){
+        $travellandaDataDownloadService = new \App\Services\TravellandaDataDownloadService();
+        $travellandaDataDownloadService->downloadCountries();
+        $travellandaDataDownloadService->downloadCities();
+        return 'done';
+    });
 
 
+    Route::group(['prefix' => 'hotel'], function () {
+        Route::get('/search', [\App\Http\Controllers\SearchController::class,'index'])->name('hotel.search');
+        Route::get('/search-results', [\App\Http\Controllers\SearchController::class,'results'])->name('hotel.search.results');
+        Route::get('/hotel-details', [\App\Http\Controllers\SearchController::class,'details'])->name('hotel.details');
+
+        Route::post('/booking', [\App\Http\Controllers\BookingController::class,'index'])->name('hotel.booking');
+    });
 
 
     // Registers routes to support the interactive components...

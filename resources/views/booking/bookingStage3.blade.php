@@ -9,40 +9,40 @@
     <div class="lg:w-3/4 md:w-3/4 sm:w-full w-full h-max m-auto bg-sky-100 ">
         <div class="w-full flex lg:flex-row md:flex-row sm:flex-row flex-col mt-10">
             <div class="lg:w-3/4  md:w-3/4 sm:w-3/4  w-full h-max bg-white py-4 px-12">
-                 <div class="w-full flex gap-4">
-                     <div class="p-4 flex flex-col">
-                         <div class="w-8 h-8 rounded-full bg-sky-500 border-none text-white flex justify-center m-auto ">
-                                <span class="m-auto">1</span>
-                         </div>
-                         <span class="text-xs text-gray-500 mt-2">Passengers</span>
-                     </div>
-                     <div class="p-4 flex flex-col">
-                         <div class="w-8 h-8 rounded-full bg-white border-2 border-sky-500 text-black flex justify-center m-auto ">
-                                <span class="m-auto">2</span>
-                         </div>
-                         <span class="text-xs text-gray-500 mt-2">Your Details</span>
-                     </div>
-                     <div class="p-4 flex flex-col">
-                         <div class="w-8 h-8 rounded-full bg-white border-2 border-sky-500 text-black flex justify-center m-auto ">
-                                <span class="m-auto">3</span>
-                         </div>
-                         <span class="text-xs text-gray-500 mt-2">Book</span>
-                     </div>
+                <div class="w-full flex gap-4">
+                    <div class="p-4 flex flex-col">
+                        <div class="w-8 h-8 rounded-full bg-sky-500 border-none text-white flex justify-center m-auto ">
+                            <span class="m-auto">1</span>
+                        </div>
+                        <span class="text-xs text-gray-500 mt-2">Passengers</span>
+                    </div>
+                    <div class="p-4 flex flex-col">
+                        <div class="w-8 h-8 rounded-full bg-white border-2 border-sky-500 text-black flex justify-center m-auto ">
+                            <span class="m-auto">2</span>
+                        </div>
+                        <span class="text-xs text-gray-500 mt-2">Your Details</span>
+                    </div>
+                    <div class="p-4 flex flex-col">
+                        <div class="w-8 h-8 rounded-full bg-white border-2 border-sky-500 text-black flex justify-center m-auto ">
+                            <span class="m-auto">3</span>
+                        </div>
+                        <span class="text-xs text-gray-500 mt-2">Book</span>
+                    </div>
 
-                 </div>
-                 <div class="w-full">
+                </div>
+                <div class="w-full">
                     <span class=" font-semibold text-black text-lg ">Passenger Details</span>
                 </div>
 
-                 <div class="w-full">
+                <div class="w-full">
                     <span class=" font-normal text-gray-500 text-xs">(First and Last name as on passport)</span>
                 </div>
 
-                 <div class="w-full mt-4">
+                <div class="w-full mt-4">
                     <span class=" font-semibold text-black text-lg ">Lead Passenger</span>
                 </div>
 
-                 <div class="w-11/12 bg-green-200 py-1 px-4 mt-2 rounded-sm">
+                <div class="w-11/12 bg-green-200 py-1 px-4 mt-2 rounded-sm">
                     <span class=" font-semibold text-black text-xs">We can only discuss the booking with the lead or authorised passengers.</span>
                 </div>
 
@@ -68,10 +68,10 @@
                     </div>
 
                     <div class="w-full mt-4 ">
-                       <div class="w-full">
-                           <input id="link-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-white border-sky-600 rounded focus:ring-0 mr-2 ">
-                           <span class="text-gray-400 font-normal m-auto">Apply same surname to all passengers</span>
-                       </div>
+                        <div class="w-full">
+                            <input id="link-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-white border-sky-600 rounded focus:ring-0 mr-2 ">
+                            <span class="text-gray-400 font-normal m-auto">Apply same surname to all passengers</span>
+                        </div>
                     </div>
 
                     <div class="w-1/2 flex">
@@ -138,7 +138,7 @@
 
                 <div class="w-full mt-12">
                     <div class="w-1/2">
-                       <a href="{{route('bookingStage4')}}" class="rounded-md bg-sky-500 text-white py-2 px-12 font-semibold text-lg">Continue</a>
+                        <a href="{{route('bookingStage4')}}" class="rounded-md bg-sky-500 text-white py-2 px-12 font-semibold text-lg">Continue</a>
                     </div>
 
                 </div>

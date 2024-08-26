@@ -55,7 +55,7 @@
 
             <div class="lg:w-3/5 md:w-3/5 sm:w-3/5 w-full">
                 <div class="w-full mt-10">
-                  <x-property.hotel-detials></x-property.hotel-detials>
+                    <x-property.hotel-detials></x-property.hotel-detials>
                 </div>
                 <div class="w-full h-max flex flex-wrap  px-6">
                     <div class="flex justify-between lg:w-1/2 md:w-3/4 sm:w-3/4 w-3/4 bg-sky-300 p-2">
@@ -87,13 +87,13 @@
 
                     </div>
 
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
-                        <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
+                    <x-property.hotel-price-details></x-property.hotel-price-details>
                 </div>
             </div>
 
@@ -102,11 +102,7 @@
     </div>
     <!-- Button to open the modal -->
 
-{{--    newslatter--}}
+    {{--    newslatter--}}
     <x-common.news-letter></x-common.news-letter>
 
 </x-layout>
-
-
-
-

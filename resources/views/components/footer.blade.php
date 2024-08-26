@@ -36,7 +36,7 @@
                     <div class="bg-info text-white flex p-3 mr-3 rounded-full"><i class="fa-brands fa-instagram"></i></div>
                 </div>
                 <div>
-                    <div class="mt-3"><img src="	https://cloud-travel.co.uk/live_flight/frontend/assets/images/credit_logo.png" alt=""></div>
+                    <div class="mt-3"><img src="https://cloud-travel.co.uk/live_flight/frontend/assets/images/credit_logo.png" alt=""></div>
                 </div>
             </div>
 
